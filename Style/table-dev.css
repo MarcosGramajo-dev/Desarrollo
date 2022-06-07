@@ -1,0 +1,49 @@
+
+.scroll{
+    overflow-y: scroll;
+    scroll-behavior: auto;
+    height: 500px;
+}
+
+table{
+    width: 600px;
+    height: 50vh;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table thead{
+    background: #000;
+    height: 30px;
+}
+
+table thead tr th{
+    color: #fff;
+    font-size: 16px;
+}
+
+table tbody tr{
+    height: 35px;
+    padding: 2px;
+}
+
+.par{
+    background-color: #62BCBE;
+    padding: 4px;
+}
+
+.impar{
+    background-color:  #174D4D;
+}
+
+.par:hover{
+    color: #fff;
+    background-color: rgb(98, 188, 190, 0.8);
+    border: 1px solid;
+}
+
+.impar:hover{
+    color: #fff;
+    background-color: rgb(23, 77, 77, 0.8);
+    border: 1px solid;
+}
